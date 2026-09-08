@@ -1,23 +1,8 @@
-/* 
-============================================================================
-Name        : EECS 348 Assignment 1
-Author      : [Your Full Name]
-Description : C program that picks a secret number between 1 and 10 and 
-              allows the user up to 3 tries to guess it correctly.
-Inputs      : User guess (integer entered via standard input).
-Output      : Terminal output prompting the user and providing feedback.
-Collaborators: None
-Other Sources: None (Generated code improved for submission)
-Creation Date: September 8, 2026
-Revision Date: September 8, 2026
-Revisions   : Initial implementation with complete comments.
-============================================================================
-*/
 
 #include <stdio.h> // Include standard input-output library for printf and scanf
 
 int main() {
-    // Author: [Your Full Name]
+    // Author: Kaden Shepherd
     // Declare the fixed secret number to be guessed (7)
     const int SECRET_NUMBER = 7;
     
